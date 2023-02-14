@@ -141,10 +141,10 @@ margin-right: 2rem;
   opacity: 0.9;
 }
 #footer{
-background-color: darkblue;
+background-color: rgb(63, 63, 68);
 position: absolute;
 padding: 0;
 }
 a{
-color: yellow;
+color: rgb(173, 245, 173);
 }
