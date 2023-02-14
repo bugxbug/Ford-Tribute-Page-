@@ -124,35 +124,35 @@ margin-right: 2rem;
 .slider-nav a {
  width: 2rem;
  height: 2rem;
- border-radius: 30%;
+ border-radius: 20%;
  background-color: black;
  opacity: 0.15;
  transition: opacity ease 250ms;
 }
- @media (max-width:460px){
+ @media (min-width:460px){
  .slider-nav a{
-    width: 2rem;
- height: 2rem;
+    width: 3rem;
+ height: 3rem;
  opacity: 0.1;
- border-radius: 50%;
- background-color: darkblue;
+ border-radius: 20%;
+ background-color: black;
  }}
  @media (min-width:1000px){
  .slider-nav a{
     width: 4rem;
  height: 4rem;
  opacity: 0.1;
- border-radius: 30%;
- background-color: darkblue;
+ border-radius: 20%;
+ background-color: black;
  }}
 
 @media (min-width:1200px){
  .slider-nav a{
-    width: 6rem;
- height: 6rem;
+    width: 5rem;
+ height: 5rem;
  opacity: 0.1;
- border-radius: 30%;
- background-color: darkblue;
+ border-radius: 20%;
+ background-color: black;
  }}
 
 .slider-nav a:hover {
