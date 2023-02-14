@@ -25,7 +25,6 @@ border: 3px solid transparent;
 }}
 
 body{
-
 margin-top: 3rem;
 margin-bottom: 0;
 margin-left: auto;
@@ -33,8 +32,8 @@ margin-right: auto;
 max-width: 100%;
 text-align: center;
 padding: 0;
-
 }
+
 
 
 #image
@@ -96,6 +95,11 @@ margin-right: 2rem;
  max-width: 100%;
  margin: 0 auto;
  }
+
+ @media(min-width:1200px){
+  .slider-wrapper{
+    width: 70%;}
+}
 .slider{
   display: flex;
   aspect-ratio: 16/9;
@@ -123,7 +127,7 @@ margin-right: 2rem;
 }
 .slider-nav a {
  width: 2rem;
- height: 2rem;
+ height: 1rem;
  border-radius: 20%;
  background-color: black;
  opacity: 0.15;
@@ -132,7 +136,7 @@ margin-right: 2rem;
  @media (min-width:460px){
  .slider-nav a{
     width: 3rem;
- height: 3rem;
+ height: 1.5rem;
  opacity: 0.1;
  border-radius: 20%;
  background-color: black;
@@ -140,7 +144,7 @@ margin-right: 2rem;
  @media (min-width:1000px){
  .slider-nav a{
     width: 4rem;
- height: 4rem;
+ height: 2rem;
  opacity: 0.1;
  border-radius: 20%;
  background-color: black;
@@ -148,8 +152,8 @@ margin-right: 2rem;
 
 @media (min-width:1200px){
  .slider-nav a{
-    width: 5rem;
- height: 5rem;
+    width: 4rem;
+ height: 2rem;
  opacity: 0.1;
  border-radius: 20%;
  background-color: black;
