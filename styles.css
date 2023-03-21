@@ -1,179 +1,192 @@
+
 * {
-  scrollbar-width: auto;
-    scrollbar-color: darkblue transparent;}
+    scrollbar-width: auto;
+      scrollbar-color: darkblue transparent;}
 #img-caption{
-color: transparent;
+  color: transparent;
+  
 }
 
-*::-webkit-scrollbar {
-width: 10px;
 
+*::-webkit-scrollbar {
+  width: 10px;
+  
 }
 
 *::-webkit-scrollbar-track {
-background: transparent;
+  background: transparent;
 }
 
 *::-webkit-scrollbar-thumb {
-background-color: darkblue;
-border-radius: 10px;
-border: 3px solid transparent;
-}
-@media (max-width:460px)
-{*::-webkit-scrollbar-thumb{
-  background-color: transparent;
-}}
+  background-color: darkblue;
+  border-radius: 10px;
+  border: 3px solid transparent;
+  }
+  @media (max-width:460px)
+  {*::-webkit-scrollbar-thumb{
+    background-color: transparent;
+  }}
+ 
 
 body{
-margin-top: 3rem;
-margin-bottom: 0;
-margin-left: auto;
-margin-right: auto;
-max-width: 100%;
-text-align: center;
-padding: 0;
-}
-
+  margin-top: 3rem;
+  margin-bottom: 0;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
+  text-align: center;
+  padding: 0;
+  }
+  
 
 
 #image
 { width: 50%;
-display: block;
-max-width: 100%;
-height: auto;
-margin-left: auto;
-margin-right: auto;
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
 }
-@media (max-width:460px){#image{
- width: 70%
-}}
-
+ @media (max-width:460px){#image{
+   width: 70%
+ }}
+ 
 
 h1{
-color:silver;
-font-family: "Lucida Console", "Courier New", monospace;}
-@media (min-width:460px){
- h1{
-   font-size: 250%;
-   text-align: center;
+  color:silver;
+  font-family: "Lucida Console", "Courier New", monospace;}
+ @media (min-width:460px){
+   h1{
+     font-size: 250%;
+     text-align: center;
+   }
  }
-}
-@media (min-width:800px){
- h1{
-   font-size: 400%;
-   text-align: center;
+ @media (min-width:800px){
+   h1{
+     font-size: 400%;
+     text-align: center;
+   }
  }
-}
 
 h3{
-color: crimson;
-font-family: "Lucida Console", "Courier New", monospace;
-margin: 0.1rem;
+  color: crimson;
+  font-family: "Lucida Console", "Courier New", monospace;
+ margin: 0.1rem;
 margin-bottom: 0.1rem; 
 padding-top: 0.1rem; 
-}
+  }
 
 
-h2{
-color: white;
-        font-family: "MV Boli", Times, serif;
-    word-spacing: 1rem;
-}
-
-#blue{
- color:darkblue;
-  margin: 0;
+  h2{
+  color: white;
+          font-family: "MV Boli", Times, serif;
+      word-spacing: 1rem;
+ }
+ 
+ #blue{
+   color:darkblue;
+    margin: 0;
 margin-bottom: 0; 
 padding-top: 0; 
 margin-left: 2rem;
 margin-right: 2rem;
- 
-}
-
-.slider-wrapper {
- position: relative;
- max-width: 100%;
- margin: 0 auto;
+   
  }
 
- @media(min-width:1200px){
-  .slider-wrapper{
-    width: 70%;}
-}
+.slider-wrapper {
+   position: relative;
+   max-width: 100%;
+   margin: 0 auto;
+   }
+  
+   @media(min-width:1200px){
+    .slider-wrapper{
+      width: 70%;}
+  }
 .slider{
-  display: flex;
-  aspect-ratio: 16/9;
-  overflow-x: hidden;
-  scroll-snap-type: x mandatory;
-  scroll-behavior: smooth;
-  box-shadow: 0 1.5rem 3rem -0.75rem transparent;
-  border-radius: 0.5rem;
+    display: flex;
+    aspect-ratio: 16/9;
+    overflow-x: hidden;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    box-shadow: 0 1.5rem 3rem -0.75rem transparent;
+    border-radius: 0.5rem;
 }
 .slider img{
-  flex: 0 0 100%;
-  scroll-snap-align: start;
-  object-fit: cover;}
- 
-  
+    flex: 0 0 100%;
+    scroll-snap-align: start;
+    object-fit: cover;}
+   
+    
 
 .slider-nav{
-  display: flex;
-  column-gap: 1rem;
-  position: absolute;
-  bottom: 1.25rem;
-  left: 50%;
-  transform: translateX(-50%);
-  z-index: 1;
+    display: flex;
+    column-gap: 1rem;
+    position: absolute;
+    bottom: 1.25rem;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
 }
 .slider-nav a {
- width: 2rem;
- height: 1rem;
- border-radius: 20%;
- background-color: black;
- opacity: 0.15;
- transition: opacity ease 250ms;
-}
- @media (min-width:460px){
- .slider-nav a{
-    width: 3rem;
- height: 1.5rem;
- opacity: 0.1;
- border-radius: 20%;
- background-color: black;
- }}
- @media (min-width:1000px){
- .slider-nav a{
-    width: 4rem;
- height: 2rem;
- opacity: 0.1;
- border-radius: 20%;
- background-color: black;
- }}
-
-@media (min-width:1200px){
- .slider-nav a{
-    width: 4rem;
- height: 2rem;
- opacity: 0.1;
- border-radius: 20%;
- background-color: black;
- }}
+   width: 2rem;
+   height: 1rem;
+   border-radius: 20%;
+   background-color: black;
+   opacity: 0.15;
+   transition: opacity ease 250ms;
+   
+  }
+   @media (min-width:460px){
+   .slider-nav a{
+      width: 3rem;
+   height: 1.5rem;
+   opacity: 0.1;
+   border-radius: 20%;
+   background-color: black;
+   }}
+   @media (min-width:1000px){
+   .slider-nav a{
+      width: 4rem;
+   height: 2rem;
+   opacity: 0.1;
+   border-radius: 20%;
+   background-color: black;
+   }}
+ 
+  @media (min-width:1200px){
+   .slider-nav a{
+      width: 4rem;
+   height: 2rem;
+   opacity: 0.1;
+   border-radius: 20%;
+   background-color: black;
+   }}
 
 .slider-nav a:hover {
-  opacity: 0.9;
+    opacity: 0.9;
+    transform: scale(1.5);
 }
 #footer{
-background-color: rgb(63, 68, 67);
-position: absolute;
-padding: 0;
+  background-color: rgb(63, 68, 67);
+ position: absolute;
+ padding: 0;
 }
 @media (max-width:500px){#footer{
-font-size: 70%;
-}}
-@media (max-width:500px){
+  font-size: 70%;
+  }}
+  @media (max-width:500px){
 h2{
-word-spacing: 0;
+  word-spacing: 0;
 }}
 u{
-color: cyan;
+  color: cyan;
+}
+
+a{
+   display: inline-block;
+   text-align: center; 
+   margin: 10;
+  
 }
