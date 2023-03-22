@@ -184,9 +184,11 @@ u{
   color: cyan;
 }
 
+
 a{
    display: inline-block;
    text-align: center; 
-   margin: 10;
+   margin: 20;
+   scale: 2.0;
   
 }
