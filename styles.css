@@ -37,11 +37,12 @@ padding: 0;
 }
 
 .a{
-    display: inline-block;
-   text-align: center; 
-   margin: 60;
-   scale: 4;
-}
+      display: inline-block;
+     text-align: center; 
+     margin: 4rem;
+     scale: 5;
+     
+    }
 
 #image
 { width: 50%;
