@@ -35,7 +35,11 @@ max-width: 100%;
 text-align: center;
 padding: 0;
 }
-
+a{/*LINKEDIN;GITHUB*/
+    
+   margin: 10;
+   
+}
 .a{
       display: inline-block;
      text-align: center; 
